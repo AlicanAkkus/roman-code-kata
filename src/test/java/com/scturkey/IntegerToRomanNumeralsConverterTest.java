@@ -22,4 +22,9 @@ public class IntegerToRomanNumeralsConverterTest {
         assertEquals("III", converter.convert(3));
     }
 
+    @Test
+    public void should_convert_5_6() {
+        assertEquals("V", converter.convert(5));
+        assertEquals("VI", converter.convert(6));
+    }
 }
